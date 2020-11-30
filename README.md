@@ -17,7 +17,7 @@ A simple SVM classifier is used. The key is to extract linguistic specificities 
 
 # Results
 
-The classification performance is very good on all regions. Lowest performance achieved from France (Paris) with F1-score of 0.96.
+The classification performance is very good on all regions. Lowest performance achieved with France (Paris) with F1-score of 0.96. This could be explained by the fact that this is not an english-speaking country and therefore features could be weaker and/or by the fact that it is one of two least represented labels in the dataset with Indonesia. Yet F1 score on Indonesia, another non-english speaking country,  reachs 0.99.
 Overall accuracy of 98% accross all regions.
 
 ![](metrics.jpg)
