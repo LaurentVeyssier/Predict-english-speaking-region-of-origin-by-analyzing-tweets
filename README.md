@@ -16,15 +16,7 @@ The dataset has over 370k tweets from Twitter with authors belonging to 10 diffe
 
 A simple SVM classifier is used. The key is to extract linguistic specificities from each region. The project uses tf-idf weighting to extract the key linguistic specificities and reduce the influence of english commonalities accross the dataset. This is done using a tf-idf vectorizer.
 
-Language carries information about who we are. Regardless of the subject, different regions will have different style or dialect. English grammar gives lots of different choices for saying the exact same thing. The examples below mean the same thing. But the linguistic form is a bit different for each sentence. The content words are mostly the same across the sentences: go, puddles, bike, cycle, work, commute. But the other words, the function words, change from one sentence to the next.
-
-- (1)  I go around puddles when I bike to work.
-- (2)  I avoid puddles when biking to work.
-- (3)  I avoid puddles on my commute.
-- (4)  I hate cycling through puddles on the way to work.
-- (5)  Puddles are something I always go around when I am commuting.
-
-These are called alternations. These alternations are not random or arbitrary. It is based on things like geographic dialects or social patterns. These differences can be used to predict information about the text’s author: gender, dialect, native language, and sometimes even age and class. This information is contained in the grammatical structure of the document. And Machine learning can learn and detect these alternations in the written language. In this project, the dialect or region of origin is leveraged.
+Language carries information about who we are. Regardless of the subject, different regions will have different style or dialect. English grammar gives lots of different choices for saying the exact same thing. These are called alternations. These alternations are not random or arbitrary. It is based on things like geographic dialects or social patterns. These differences can be used to predict information about the text’s author: gender, dialect, native language, and sometimes even age and class. This information is contained in the grammatical structure of the document. And Machine learning can learn and detect these alternations in the written language. In this project, the dialect or region of origin is leveraged.
 
 # Results
 
