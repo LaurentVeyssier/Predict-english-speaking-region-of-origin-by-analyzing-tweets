@@ -21,3 +21,7 @@ The classification performance is very good on all regions. Lowest performance a
 Overall accuracy of 98% accross all regions.
 
 ![](metrics.jpg)
+
+# Next
+- preprocess text to improve performance and robustness
+- 
