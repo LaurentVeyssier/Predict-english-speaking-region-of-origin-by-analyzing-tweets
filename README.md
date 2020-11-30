@@ -14,7 +14,7 @@ The dataset used a over 370k tweets from Twitter with authors belonging to 10 di
 
 # Classification
 
-A simple SVM classifier is used. The key is to extract linguistic specificities from each region. This is done using a tf-idf vectorizer.
+A simple SVM classifier is used. The key is to extract linguistic specificities from each region. The project uses tf-idf weighting to extract the key linguistic specificities and reduce the influence of english commonalities accross the dataset. This is done using a tf-idf vectorizer.
 
 # Results
 
