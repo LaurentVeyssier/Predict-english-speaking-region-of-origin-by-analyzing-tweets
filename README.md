@@ -18,11 +18,13 @@ A simple SVM classifier is used. The key is to extract linguistic specificities 
 
 Language carries information about who we are. Regardless of the subject, different regions will have different style or dialect. English grammar gives lots of different choices for saying the exact same thing. The examples below mean the same thing. But the linguistic form is a bit different for each sentence. The content words are mostly the same across the sentences: go, puddles, bike, cycle, work, commute. But the other words, the function words, change from one sentence to the next.
 
-(1)  I go around puddles when I bike to work.
-(2)  I avoid puddles when biking to work.
-(3)  I avoid puddles on my commute.
-(4)  I hate cycling through puddles on the way to work.
-(5)  Puddles are something I always go around when I am commuting.
+- (1)  I go around puddles when I bike to work.
+- (2)  I avoid puddles when biking to work.
+- (3)  I avoid puddles on my commute.
+- (4)  I hate cycling through puddles on the way to work.
+- (5)  Puddles are something I always go around when I am commuting.
+
+These differences can be used to predict information about the text’s author: gender, dialect, native language, and sometimes even age and class. This information is contained in the grammatical structure of the document. In this project, the dialect and region of origin is extracted.
 
 # Results
 
