@@ -10,7 +10,7 @@ During training, the model extracts english language variations specific to the 
 
 # Dataset uset
 
-The dataset used a over 370k tweets from Twitter with authors belonging to 10 different regions. The regions are labelled using the capital city. All tweets are in english and therefore use english language specificities based on the region.
+The dataset has over 370k tweets from Twitter with authors belonging to 10 different regions. The regions are labelled using their capital city. All tweets are in english and therefore tweets carry english language characteristics specific to each region (think about it as "dialects").
 
 # Classification
 
