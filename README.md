@@ -5,6 +5,7 @@ Predict the region of origin of an english-speaking tweet author by analyzing tw
 # Project description
 
 In this short project, the objective is to do a content-based classification of english-speaking regions, based on tweets.
+During training, the model extracts english language variations specific to the region/origin of the tweets and uses it to determine geographical origin of the author during inference.
 
 
 # Dataset uset
