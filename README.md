@@ -24,7 +24,7 @@ Language carries information about who we are. Regardless of the subject, differ
 - (4)  I hate cycling through puddles on the way to work.
 - (5)  Puddles are something I always go around when I am commuting.
 
-These differences can be used to predict information about the text’s author: gender, dialect, native language, and sometimes even age and class. This information is contained in the grammatical structure of the document. In this project, the dialect and region of origin is extracted.
+These are called alternations. The coice of these alternations is not random or arbitrary. It is based on things like geographic dialects or social patterns. These differences can be used to predict information about the text’s author: gender, dialect, native language, and sometimes even age and class. This information is contained in the grammatical structure of the document. And Machine learning can learn and detect these alternations in the written language. In this project, the dialect or region of origin is leveraged.
 
 # Results
 
