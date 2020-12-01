@@ -27,4 +27,4 @@ Overall accuracy of 98% accross all regions.
 
 # Next
 - preprocess text to improve performance and robustness
-- 
+- Perform similar analysis to predict the country of origin of the tweet using feature extractiob from text: Notebook added and achieving similar high performance levels (96%+ accuracy)
